@@ -20,7 +20,20 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3P-52-64Z" customClass="GameView" customModule="Flappy_Bird" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4M-uW-fXc">
+                                        <rect key="frame" x="158" y="114" width="58" height="37"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="k4M-uW-fXc" firstAttribute="centerX" secondItem="T3P-52-64Z" secondAttribute="centerX" id="R08-eZ-RtJ"/>
+                                    <constraint firstItem="k4M-uW-fXc" firstAttribute="leading" secondItem="T3P-52-64Z" secondAttribute="leading" constant="166" id="TXU-jq-hxH"/>
+                                    <constraint firstItem="k4M-uW-fXc" firstAttribute="top" secondItem="T3P-52-64Z" secondAttribute="top" constant="122" id="ywX-4Q-68H"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,6 +45,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UGE-eO-Z8w"/>
                     </view>
+                    <connections>
+                        <outlet property="gameView" destination="T3P-52-64Z" id="FVf-IU-Lz3"/>
+                        <outlet property="scoreLabel" destination="k4M-uW-fXc" id="C3N-B6-aWZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

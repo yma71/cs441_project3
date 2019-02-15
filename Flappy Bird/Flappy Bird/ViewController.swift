@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GameViewDelegate {
 
+    @IBOutlet weak var gameView: GameView!
+    @IBOutlet weak var scoreLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        gameView.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    func passAPipe() {
+        let score = Int(scoreLabel.text!)!
+        scoreLabel.text = String(score + 1)
+    }
+    
+    func gameEnded() {
+        scoreLabel.text = "0"
+    }
 
 }
 
