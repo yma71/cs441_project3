@@ -1,0 +1,53 @@
+commit 5a39d36115144846049c108eb398eea350f505ae
+Author: 马演喆 <mayanzhe@mayanzhedeMac.local>
+Date:   Mon Feb 25 06:22:32 2019 -0800
+
+    p3
+
+ README.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit c165e3bb20dab3f23bae2decbf1d49afc3ac635f
+Author: 马演喆 <mayanzhe@mayanzhedeMac.local>
+Date:   Fri Feb 15 07:34:38 2019 -0800
+
+    p3
+
+ Flappy Bird/Flappy Bird.xcodeproj/project.pbxproj  |   4 ++
+ .../UserInterfaceState.xcuserstate                 | Bin 23034 -> 24189 bytes
+ Flappy Bird/Flappy Bird/Base.lproj/Main.storyboard |  17 ++++++
+ Flappy Bird/Flappy Bird/GameView.swift             |  66 ++++++++++++++++++++-
+ Flappy Bird/Flappy Bird/Pipe.swift                 |  39 ++++++++++++
+ Flappy Bird/Flappy Bird/ViewController.swift       |  15 ++++-
+ 6 files changed, 137 insertions(+), 4 deletions(-)
+
+commit f57f63918efe1c2b5213103f3944ae05da6cf9ad
+Author: 马演喆 <mayanzhe@mayanzhedeMac.local>
+Date:   Thu Feb 14 07:24:11 2019 -0800
+
+    p3
+
+ Flappy Bird/Flappy Bird.xcodeproj/project.pbxproj  | 347 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 23034 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ Flappy Bird/Flappy Bird/AppDelegate.swift          |  46 +++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++++
+ .../Flappy Bird/Assets.xcassets/Contents.json      |   6 +
+ .../Flappy Bird/Base.lproj/LaunchScreen.storyboard |  25 ++
+ Flappy Bird/Flappy Bird/Base.lproj/Main.storyboard |  41 +++
+ Flappy Bird/Flappy Bird/Bird.swift                 |  38 +++
+ Flappy Bird/Flappy Bird/GameView.swift             |  34 ++
+ Flappy Bird/Flappy Bird/Info.plist                 |  45 +++
+ Flappy Bird/Flappy Bird/ViewController.swift       |  20 ++
+ 14 files changed, 729 insertions(+)
+
+commit 02153362823df2fd2ecf04e61e1a2c57d7324c89
+Author: yma71 <31296106+yma71@users.noreply.github.com>
+Date:   Thu Feb 14 06:45:25 2019 -0800
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
